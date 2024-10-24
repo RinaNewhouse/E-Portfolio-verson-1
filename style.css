@@ -338,6 +338,9 @@ nav {
 .project__description--paragraph {
   margin: 16px 0;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project__description--link {
