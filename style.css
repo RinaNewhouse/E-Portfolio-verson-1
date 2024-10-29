@@ -385,6 +385,10 @@ nav {
   z-index: 3;
   opacity: 0;
   transition: transform 450ms ease, opacity 300ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .project__description--title {
@@ -400,9 +404,7 @@ nav {
 .project__description--paragraph {
   margin: 16px 0;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .project__description--link {
